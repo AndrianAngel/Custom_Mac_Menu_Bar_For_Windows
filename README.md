@@ -8,7 +8,144 @@
 
 This AutoIt script creates a beautiful, functional dark menu bar at the top of your Windows screen that mimics the look and feel of macOS. It provides quick access to system functions, window management, and productivity tools while maintaining a professional dark theme aesthetic.
 
----
+
+
+___
+
+
+
+## 📜  Menu Features
+
+___
+
+
+
+## 📎  Main Bar
+
+
+
+![A1 Settings](Images/A1.png)
+
+
+
+___
+
+
+
+## 🌹 Full Desktop View
+
+
+
+![A2 Settings](Images/A2.png)
+
+
+
+___
+
+
+
+## 🔗 Tray Menu
+
+
+
+![A3 Settings](Images/A3.png)
+
+
+
+___
+
+
+
+## ⚙️ Bar Setting
+
+
+
+![A4 Settings](Images/A4.png)
+
+
+
+___
+
+
+
+## ☘️ First Menu: With last active app's name
+
+
+
+![B1 Settings](Images/B1.png)
+
+___
+
+
+
+##  ☘️ Second Menu: Quick Actions
+
+
+
+![B2 Settings](Images/B2.png)
+
+___
+
+
+
+##  ☘️ Third Menu: Setting
+
+
+
+![B3 Settings](Images/B3.png)
+
+___
+
+
+
+## 🌿 Fourth Menu: Jump To
+
+
+
+![B4 Settings](Images/B4.png)
+
+___
+
+
+
+## 🌿 Fifth Menu: Tools
+
+
+
+![B5 Settings](Images/B5.png)
+
+___
+
+
+
+## 🌿 Sixth Menu: Window Position
+
+
+
+![B6 Settings](Images/B6.png)
+
+___
+
+
+
+## 🌳Seventh Menu: Resize (Window)
+
+
+
+![B7 Settings](Images/B7.png)
+
+___
+
+
+
+## 🌳Last Menu: About
+
+
+
+![B8 Settings](Images/B8.png)
+
+___
+
 
 ## ✨ **Features**
 
