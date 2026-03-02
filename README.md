@@ -20,7 +20,7 @@ ___
 
 
 
-## 📎  Main Bar
+## 📌 Main Bar
 
 
 
@@ -44,7 +44,7 @@ ___
 
 
 
-## 🔗 Tray Menu
+## 📣 Tray Menu
 
 
 
@@ -200,7 +200,13 @@ ___
 | **Toggle Hotkey** | Customize the settings hotkey (e.g., `!m` for Alt+M) |
 | **Custom Icon** | Choose your own icon file |
 
----
+___
+
+ ## 📽️ Quick Demo
+
+![E1.gif Settings](Images/E1.gif)
+
+___
 
 ## 🚀 **Installation**
 
