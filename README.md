@@ -111,20 +111,7 @@ Create a shortcut in the startup folder:
 - Resize to common resolutions instantly
 - Toggle app visibility from the App Name menu
 
----
 
-## 📊 **Version History**
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| **Alpha 8** | Mar 2026 | • Stable release with full feature set<br>• Improved fullscreen detection<br>• Better memory management<br>• Settings persistence |
-| **Alpha 7** | Feb 2026 | • Added window position presets<br>• Fixed DPI scaling issues<br>• Enhanced menu dark mode |
-| **Alpha 6** | Jan 2026 | • Introduced window resize presets<br>• Added username display<br>• Performance optimizations |
-| **Alpha 5** | Dec 2025 | • GDI rendering for smoother graphics<br>• Icon rendering without white background<br>• Reduced CPU usage |
-| **Alpha 4** | Nov 2025 | • Dark theme menus implemented<br>• Added system tray controls<br>• Hotkey configuration |
-| **Alpha 3** | Oct 2025 | • Settings dialog added<br>• Fullscreen auto-hide feature<br>• Custom icon support |
-| **Alpha 2** | Sep 2025 | • Basic menu structure<br>• Active window tracking<br>• Clock display |
-| **Alpha 1** | Aug 2025 | • Initial prototype<br>• Basic bar rendering<br>• Proof of concept |
 
 ---
 
