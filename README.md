@@ -405,8 +405,8 @@ Bar Settings now has a full tabbed interface:
 - **Jump To Paths** — edit all 11 folder shortcuts
 - **Resize Presets** — edit all 9 resize entries (name + W×H)
 
-### ☠️ Kill Foreground Process (Tray)
-New tray menu item: **"Kill Foreground Process"** — instantly terminates whatever app is in the foreground. Useful for hanging or frozen windows without opening Task Manager.
+### ☠️ Kill The script's Process (Tray)
+New tray menu item: **"Kill Process"** — instantly terminates this script without opening Task Manager.
 
 ### 🛡️ Exit Watchdog
 Exit routine now spawns a background watchdog process. If the main process doesn't exit cleanly within ~3 seconds, the watchdog force-kills it by PID — no more ghost processes.
