@@ -410,6 +410,11 @@ New tray menu item: **"Kill Foreground Process"** — instantly terminates whate
 
 ### 🛡️ Exit Watchdog
 Exit routine now spawns a background watchdog process. If the main process doesn't exit cleanly within ~3 seconds, the watchdog force-kills it by PID — no more ghost processes.
+___
+
+## 📦 Download ULTIMATE EDITION Here 👇
+
+➡️ **[Download Ultimate Edition — V2.0](https://github.com/AndrianAngel/Custom_Mac_Menu_Bar_For_Windows/releases/tag/V2.0)**
 
 ---
 
