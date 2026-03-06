@@ -315,6 +315,106 @@ Create a shortcut in the startup folder:
 - Windows API documentation providers
 - All testers who provided feedback
 
+___
+
+##  ✅ULTIMATE EDITION COMES WITH BUG FIXES
+
+___
+
+## 📜 ULTIMATE EDITION FEATURES
+___
+
+## ⚙️ GENERAL (Ultimate)
+
+![C1 Settings](Images/C1.png)
+
+___
+
+## 📌 JUMP TO PATHS (Ultimate)
+
+![C2 Settings](Images/C2.png)
+
+___
+
+## 🌿RESIZE PRESETS (Ultimate)
+
+![C3 Settings](Images/C3.png)
+
+___
+
+## ☘️TRAY MENU (Ultimate)
+
+![C4 Settings](Images/C4.png)
+
+___
+
+# 🍎 Mac Menu Bar For Windows — Ultimate Edition
+### Changelog vs. Stable Version
+
+---
+
+## 🐛 Bugs Fixed
+
+### 🪟 Hide / Unhide Problem
+- **Stable:** "Show / Hide App Window" was a single toggle with no memory — hiding a window and then trying to unhide it had no reliable stack, and duplicate entries could corrupt the state.
+- **Fixed:** Full LIFO hidden-window stack (`$aHiddenStack[100]`) with duplicate-check on push and automatic pruning of stale handles (`_PruneHiddenStack`). Hide/unhide is now reliable and stateful.
+
+### 🖱️ Click Outside to Dismiss Bug
+- **Stable:** Clicking outside an open menu didn't always dismiss it cleanly because focus wasn't transferred to the bar before tracking started.
+- **Fixed:** Before `TrackPopupMenu`, focus is explicitly given to the bar window so Windows properly detects the outside-click and collapses the menu. Focus is then restored to the last active window after the menu closes.
+
+### 🔴 Exit & Kill Process Bugs
+- **Stable:** Only a plain "Exit" tray item existed. Hard crashes or hung processes had no recovery path, and exit cleanup could silently hang.
+- **Fixed:**
+  - Added **"Kill Foreground Process"** tray item (`_TrayKillProcess`) to instantly terminate the active foreground app.
+  - Exit now spawns a **3-second watchdog** — if cleanup hangs, the process is force-killed by PID automatically.
+
+### 🎯 Focus Problem on Unhide
+- **Stable:** Unhiding a window via the menu didn't restore focus to that window, leaving the user without an active foreground app.
+- **Fixed:** `_UnhideOneWindow` calls `WinActivate` after `WinSetState(@SW_SHOW)`, restoring focus to the re-shown window. Hotkey-triggered unhide works **entirely without needing prior focus** — it uses the AutoIt hotkey system directly.
+
+---
+
+## ✨ New Features
+
+### 🙈 Hide / Unhide System (Complete Rework)
+A full window-hiding engine has been built from scratch:
+
+| Action | Hotkey (default) | Description |
+|---|---|---|
+| Hide active window | `Ctrl+Alt+W` | Hides foreground window & pushes to stack |
+| Unhide (backtrack) | `Ctrl+Alt+H` | Pops and restores the most recently hidden window (LIFO) |
+| Unhide All | `Ctrl+Alt+U` | Restores every hidden window at once |
+
+- All three hotkeys are **fully customizable** in Bar Settings.
+- Unhide operations work **regardless of which window has focus** — no need to click the bar first.
+- Stack safely ignores the menu bar itself and the settings dialog.
+- Menu entries **"Hide Window"**, **"Unhide (backtrack)"**, and **"Unhide All"** added to the App Name dropdown menu.
+
+### 🗂️ 11 Fully Customizable Jump To Paths
+- **Stable:** 11 hardcoded paths (Downloads, Documents, Temp, etc.) with no way to change them.
+- **Ultimate:** All 11 paths **and their labels** are editable directly in Bar Settings → *Jump To Paths* tab. Browse buttons included for each entry.
+
+### 📐 9 Fully Customizable Resize Presets
+- **Stable:** 9 hardcoded resize presets (640×480, 1280×720, etc.) with fixed names.
+- **Ultimate:** Every preset's **name, width, and height** are editable in Bar Settings → *Resize Presets* tab. Name them whatever you want — the Resize menu updates live on save.
+
+### 🧭 Settings Dialog — 3-Tab Layout
+Bar Settings now has a full tabbed interface:
+- **General** — bar behavior, hotkeys (including the 3 new hide/unhide hotkeys), icon path, DPI, font, etc.
+- **Jump To Paths** — edit all 11 folder shortcuts
+- **Resize Presets** — edit all 9 resize entries (name + W×H)
+
+### ☠️ Kill Foreground Process (Tray)
+New tray menu item: **"Kill Foreground Process"** — instantly terminates whatever app is in the foreground. Useful for hanging or frozen windows without opening Task Manager.
+
+### 🛡️ Exit Watchdog
+Exit routine now spawns a background watchdog process. If the main process doesn't exit cleanly within ~3 seconds, the watchdog force-kills it by PID — no more ghost processes.
+
+---
+
+*Ultimate Edition — AndrianAngel © March 2026*
+
 ---
 
 <p align="center">
