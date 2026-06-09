@@ -1,6 +1,7 @@
 
-❤️ CHECK OUT THE NEW GOLD EDITION ❤️
-⚔️ https://github.com/AndrianAngel/Mac_Menu_Bar_Gold_Edition_Ultimate_Tool_2026/tree/main ⚔️
+### ❤️ CHECK OUT THE NEW GOLD EDITION ❤️ 👇
+ https://github.com/AndrianAngel/Mac_Menu_Bar_Gold_Edition_Ultimate_Tool_2026/tree/main
+ ⚔️⚔️⚔️⚔️
 
 ___
 
