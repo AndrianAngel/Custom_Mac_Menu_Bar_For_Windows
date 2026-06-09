@@ -1,4 +1,10 @@
-# 🍏 **MacOS-Style Dark Menu Bar for Windows** 🖥️
+
+❤️ CHECK OUT THE NEW GOLD EDITION ❤️
+⚔️ https://github.com/AndrianAngel/Mac_Menu_Bar_Gold_Edition_Ultimate_Tool_2026/tree/main ⚔️
+
+___
+
+# 🍏 **MacOS-Style Dark Menu Bar for Windows** 🖥️ - OLD
 
 > Transform your Windows desktop with a sleek, MacOS-inspired dark menu bar!
 
